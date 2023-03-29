@@ -1,3 +1,8 @@
+.header_container {
+    display: flex;
+    align-items: center;
+}
+
 .header_menu-hamburguer {
     background-image: url("../images/Menu.svg");
     display: inline-block;
@@ -20,7 +25,7 @@
 }
 
 .list_menu-item {
-    padding: 1em;
+    padding: 0.5em 1em;
 }
 
 .container_botao:checked~.list_menu {
@@ -28,10 +33,17 @@
 }
 
 .list_menu-link {
-    color: var(--white);
+    color: var(--green);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Audiowide', cursive;
+}
+
+.header_name {
+    font-size: 14px;
+    font-family: 'Audiowide', cursive;
+    color: var(--green);
+    margin: auto;
 }
 
 

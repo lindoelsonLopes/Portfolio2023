@@ -1,0 +1,12 @@
+@import url("styles/header.css");
+
+:root {
+    --background: #000300;
+    --white: #84EB9D;
+}
+
+body {
+    background-color: var(--background);
+    font-size: 16px;
+    font-weight: 400;
+}

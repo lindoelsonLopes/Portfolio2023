@@ -1,6 +1,7 @@
 .header_container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header_menu-hamburguer {
@@ -30,6 +31,7 @@
 
 .container_botao:checked~.list_menu {
     display: block;
+    background-color: var(--black);
 }
 
 .list_menu-link {
@@ -44,6 +46,16 @@
     font-family: 'Audiowide', cursive;
     color: var(--green);
     margin: auto;
+}
+
+.logo {
+    width: 40px;
+    margin: 1em 1em;
+    padding-right: 10em;
+}
+
+.links_midias-sociais {
+    display: flex;
 }
 
 
